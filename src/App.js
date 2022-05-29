@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
 
@@ -8,13 +9,13 @@ function App() {
               <Navbar />
               <main className=''>
                 <Alert />
-                <Routes>
+                {/* <Routes>
                   <Route path='/' element={< Home />} />
                   <Route path='/about' element={< About />} />
                   <Route path='/user/:login' element={<User />}></Route>
                   <Route path='/notfound' element={< NotFound />} />
                   <Route path='/*' element={< NotFound />} />
-                </Routes>
+                </Routes> */}
               </main>
               <Footer />
             </div>
