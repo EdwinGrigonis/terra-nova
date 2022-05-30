@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
+import Navbar from './components/assets/Navbar';
+import Footer from './components/assets/Footer';
 
 function App() {
   return (
     <Router>
           <div className=''>
-              <Navbar />
+              <Navbar title='Terra Nova Expedition'/>
               <main className=''>
-                <Alert />
                 {/* <Routes>
                   <Route path='/' element={< Home />} />
                   <Route path='/about' element={< About />} />
