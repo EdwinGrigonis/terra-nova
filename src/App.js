@@ -10,13 +10,12 @@ function App() {
           <div className=''>
               <Navbar title='Terra Nova Expedition'/>
               <main className=''>
-                {/* <Routes>
+                <Routes>
                   <Route path='/' element={< Home />} />
-                  <Route path='/about' element={< About />} />
-                  <Route path='/user/:login' element={<User />}></Route>
-                  <Route path='/notfound' element={< NotFound />} />
+                  <Route path='/scotts-journal' element={< ScottsJournal />} />
+                  <Route path='/timeline-map' element={< TimelineMap />} />
                   <Route path='/*' element={< NotFound />} />
-                </Routes> */}
+                </Routes>
               </main>
               <Footer />
             </div>

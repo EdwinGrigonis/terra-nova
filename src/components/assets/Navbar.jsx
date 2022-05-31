@@ -16,11 +16,11 @@ function Navbar({title}) {
                         <Link to='/' className='btn btn-ghost btn-sm rounded-btn'>
                             Home
                         </Link>
-                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
-                            About
+                        <Link to='/scotts-journal' className='btn btn-ghost btn-sm rounded-btn'>
+                            Scott's Journal
                         </Link>
-                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
-                            About
+                        <Link to='/timeline-map' className='btn btn-ghost btn-sm rounded-btn'>
+                            Timeline Map
                         </Link>
                         <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
                             About
