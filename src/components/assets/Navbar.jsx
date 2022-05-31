@@ -6,26 +6,26 @@ function Navbar({title}) {
     return (
         <nav className='navbar mb-12 shadow-lg bg-secondary text-neutral-content'>
             <div className='container mx-auto'>
-                <div className='flex-none px-2 mx-2'>
-                    <Link to='/' className='text-3xl font-bold align-middle'>
+                <div className='flex-start px-2 mx-2'>
+                    <Link to='/' className='text-3xl font-bold align-middle mx-auto'>
                         {title}
                     </Link>
                 </div>
-                <div className='flex-1 px-2 mx-2'>
-                    <div className='md:flex sm:dropdown justify-end'>
-                        <Link to='/' className='btn btn-ghost btn-sm rounded-btn'>
+                <div className='flex-end px-2 mx-2'>
+                    <div className='md:flex sm:dropdown justify-end mx-2'>
+                        <Link to='/' className='btn btn-ghost btn-sm rounded-btn mx-2'>
                             Home
                         </Link>
-                        <Link to='/scotts-journal' className='btn btn-ghost btn-sm rounded-btn'>
+                        <Link to='/scotts-journal' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
                             Scott's Journal
                         </Link>
-                        <Link to='/timeline-map' className='btn btn-ghost btn-sm rounded-btn'>
+                        <Link to='/timeline-map' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
                             Timeline Map
                         </Link>
-                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
+                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
                             About
                         </Link>
-                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btn'>
+                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
                             About
                         </Link>
                     </div>
