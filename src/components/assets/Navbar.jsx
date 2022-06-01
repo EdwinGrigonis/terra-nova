@@ -4,7 +4,7 @@ import { PropTypes } from 'prop-types'
 
 function Navbar({title}) {
     return (
-        <nav className='navbar mb-12 shadow-lg bg-secondary text-neutral-content'>
+        <nav className='navbar mb-12 shadow-xl bg-secondary text-neutral-content'>
             <div className='container mx-auto'>
                 <div className='flex-start px-2 mx-2'>
                     <Link to='/' className='text-3xl font-bold align-middle mx-auto'>
@@ -25,8 +25,8 @@ function Navbar({title}) {
                         <Link to='/about' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
                             About
                         </Link>
-                        <Link to='/about' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
-                            About
+                        <Link to='/contact' className='btn btn-ghost btn-sm rounded-btnmx-2 mx-2'>
+                            Contact
                         </Link>
                     </div>
                 </div>
